@@ -1,0 +1,100 @@
+body, html{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  button {
+    cursor: pointer;
+  }
+  .voltar{
+    background-color: #68008B; 
+    width: 70px;
+    height: 25px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+
+  }
+  
+  .content-principal{
+    width: 100%;
+    border-radius: 10px;
+    background: #F3F3F3;
+  }
+  
+  form{
+    background-color: #c9c9c9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  form div{
+    margin: 10px 10px;
+  }
+
+  input{
+    width: 90%;
+    height: 37px; 
+    margin-bottom: 1px;
+    margin-top: 1px; 
+    border-radius: 13px;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.button-cad{
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 70px;
+    font-size: 17px; 
+    justify-content: center;
+    margin-left: 37%;
+    margin-bottom: 30px;
+    background-color: #68008B;
+    color: #ffffff;
+}
+  
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding-top: 15px;
+  padding-bottom: 15px;
+	text-align: center;
+  width: 100%;
+  margin: 0 0;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.link-rodapé{
+	color: #fff;
+	text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}

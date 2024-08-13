@@ -1,0 +1,70 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content-principal{
+    background-color: #68008B;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.content-quadrado2{
+    background-color: #ffffff;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.input2{
+    width: 100%;
+    height: 37px; 
+    margin-bottom: 1px;
+    margin-top: 1px; 
+    border-radius: 13px;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.pagamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.pagamento div{
+margin-right: 17%;
+margin-left: 17%;
+}
+
+.pagamento button{
+background-color: #ffffff;
+color: black;
+border: none;
+font-size: 13px;
+font-weight: bold;    
+}
+
+
+.button-cad{
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 70px;
+    font-size: 17px; 
+    justify-content: center;
+    margin-left: 37%;
+    margin-bottom: 30px;
+    background-color: #68008B;
+    color: #ffffff;
+}

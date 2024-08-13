@@ -1,0 +1,117 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #68008B;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.nav-logo {
+  height: 90px;
+  width: 90px;
+  margin-left: 10px;
+}
+
+nav p {
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff0f0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 10px 10px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Alinha os cards à esquerda */
+  background-color: #ffffff;
+  padding: 10px 15rem; /* Adiciona padding para centralizar o contêiner */
+}
+
+.card {
+  width: calc(20% - 10px); /* Reduz a largura para cinco cards por linha */
+  height: 460px; /* Aumenta a altura do card */
+  border: 1px solid transparent;
+  background-color: white;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%; /* Espaçamento entre as fileiras */
+  margin-right: 10px; /* Espaçamento entre os cards */
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.card:nth-child(5n) {
+  margin-right: 0; /* Remove a margem direita no último card da fileira */
+}
+
+.card img {
+  height: 220px; /* Aumenta a altura da imagem */
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+  flex: 1;
+}
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 100%;
+  margin: 0 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.link-rodapé {
+  color: #fff;
+  text-decoration: none;
+}

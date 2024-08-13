@@ -1,0 +1,170 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F3F3;
+}
+
+nav{
+    background-color: #68008B;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-logo{
+    height:90px ;
+    width:90px ;
+  }
+  
+  nav p{
+    margin-right: 65%;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .lupa{
+    background: none;
+    border: none;
+    background-image: url("/icons/lupa.png");
+    background-size: cover;
+    background-position: center;
+    padding-right: 28px;
+    width: 36px;
+    height: 29px;
+  }
+  
+  nav input{
+    width: 280px;
+    height: 27px;    
+    border: none;
+    padding-left: 10px;
+  }
+
+.carrinho{
+    background: none;
+    border: none;
+    background-image: url("/icons/carrinho.png");
+    background-size: cover;
+    width: 36px;
+    height: 36px;
+    
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    flex-direction: column;
+
+}
+
+.container.normal-section{
+  background-color: #68008B;
+  width: 990px;
+}
+
+
+.voltar{
+    border: none;
+    background-image: url("/icons/seta-para-a-esquerda.png");
+    background-size: cover;
+    margin-top: 2px;
+    width: 36px;
+    height: 36px;
+
+}
+
+
+.div-card{
+    display: flex;
+    flex-direction: row;
+    
+}
+  
+.card-produto{
+    width: 241px;
+    height: 320px;
+    border: 1px solid transparent;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 70px 2.8rem;
+    padding-top: 2px;
+  }
+  .card-produto img{
+    height: 210px;
+    padding-left: 1px;
+    }
+
+  .card-produto p{
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+
+  .card-produto div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 14px;
+    font-size: 27px;
+  }
+  
+  .card-produto h6{
+    margin: 0;    
+  }
+  
+  .card-produto button{
+    background-image: url('/icons/carrinho-roxo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    border: none;
+    width: 34px;
+    height: 34px;
+    margin-top: 0;
+  }
+
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.link-rodapé{
+	color: #fff;
+	text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}

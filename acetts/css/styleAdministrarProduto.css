@@ -1,0 +1,130 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F3F3;
+}
+
+nav{
+    background-color: #68008B;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+nav div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  .nav-logo{
+    height:90px ;
+    width:90px ;
+    margin-left: 10px;
+  }
+  
+  nav p{
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .nav-item a{
+    color: #ffffff;
+  }
+
+  nav input{
+    width: 280px;
+    height: 27px;    
+    border: none;
+    padding-left: 10px;
+  }
+
+
+  button {
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    background: white;
+    
+    
+  }
+  .mostrar_foto{
+    width: 30px;
+    height: 30px;
+  }
+
+  .lista_foto{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .header {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 12px;
+  }
+  
+  .header span {
+    font-weight: 900;
+    font-size: 20px;
+    word-break: break-all;
+  }
+  
+  #new {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(57, 57, 226);
+  }
+
+  form{
+    background-color: #68008B;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 10%;
+  }
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.link-rodapé{
+	color: #fff;
+	text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
