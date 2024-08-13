@@ -4,6 +4,7 @@ Trata-se de um projeto de plataformas de entrega de supermercado, que inclui int
 
 ## NAO FUNCIONAIS
 ESQUECEU SENHA
+
 PAGAMENTO
 
 ## CONTAS JA CRIADAS
