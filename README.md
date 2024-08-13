@@ -9,17 +9,20 @@ PAGAMENTO
 ## CONTAS JA CRIADAS
 
 EMAIL:user@gmail.com
+
 SENHA:123
 
 EMAIL:empresa@gmail.com
+
 SENHA:123
 
 EMAIL:lafti@gmail.com
+
 SENHA:1234
 
 ## TECNOLOGIAS
 
--PHP
--HTML
--CSS
--BOOTSTRAP
+- PHP
+- HTML
+- CSS
+- BOOTSTRAP
